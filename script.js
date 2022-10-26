@@ -39,8 +39,8 @@ document.querySelector('.check').addEventListener('click', function check() {
     score--;
     document.querySelector('.score').textContent = score;
   } else {
-    document.querySelector('.message').textContent = '💥 Game over!';
-    document.querySelector('.score').textContent = 0;
+     displayMessage('💥 Game over!');
+     document.querySelector('.score').textContent = 0;
   }
 
   // Press the again button to restart the game
