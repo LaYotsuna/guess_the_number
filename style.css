@@ -117,3 +117,71 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* MOBILE AND PORTTRAIT */
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  /* LAYOUT */
+  header {
+    height: 35vh;
+    border-bottom: 3.5px solid #eee;
+  }
+
+  main {
+    height: 65vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .left {
+    width: 26rem;
+  }
+
+  .right {
+    width: 26rem;
+    font-size: 1rem;
+  }
+
+  /* ELEMENTS STYLE */
+  h1 {
+    font-size: 2rem;
+  }
+
+  .number {
+    font-size: 3rem;
+    width: 7.5rem;
+    padding: 1.5rem 0rem;
+  }
+
+  .between {
+    font-size: 0.7rem;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .again {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .guess {
+    border: 2px solid #eee;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    width: 12.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+    height: 1.5rem;
+  }
+
+  .label-score {
+    margin-bottom: 1rem;
+  }
+}
