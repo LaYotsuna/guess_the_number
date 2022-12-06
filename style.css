@@ -118,7 +118,6 @@ h1 {
 
 /* RESPONSIVE AND PORTTRAIT */
 @media only screen and (max-width: 540px) and (orientation: portrait) {
-  /* LAYOUT */
   header {
     height: 35vh;
     border-bottom: 3.5px solid #eee;
@@ -187,7 +186,6 @@ h1 {
 
 /* RESPONSIVE AND LANDSCAPE */
 @media only screen and (max-height: 500px) and (orientation: landscape) {
-  /* LAYOUT */
   header {
     height: 35vh;
     border-bottom: 3.5px solid #eee;
